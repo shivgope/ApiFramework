@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[========connection successful=======]]>
+    </line>
+    <line>
+      <![CDATA[======connection closed========]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1648" started-at="2022-08-11T11:59:35 IST" finished-at="2022-08-11T11:59:37 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1648" started-at="2022-08-11T11:59:35 IST" finished-at="2022-08-11T11:59:37 IST">
+      <class name="CreatePrandVerifyWRT">
+        <test-method status="PASS" signature="bsConfig()[pri:0, instance:CreatePrandVerifyWRT@46daef40]" name="bsConfig" is-config="true" duration-ms="421" started-at="2022-08-11T11:59:35 IST" finished-at="2022-08-11T11:59:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[========connection successful=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method status="PASS" signature="createDataAndVerify()[pri:0, instance:CreatePrandVerifyWRT@46daef40]" name="createDataAndVerify" duration-ms="1630" started-at="2022-08-11T11:59:35 IST" finished-at="2022-08-11T11:59:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDataAndVerify -->
+        <test-method status="PASS" signature="asConfig()[pri:0, instance:CreatePrandVerifyWRT@46daef40]" name="asConfig" is-config="true" duration-ms="7" started-at="2022-08-11T11:59:37 IST" finished-at="2022-08-11T11:59:37 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[======connection closed========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- CreatePrandVerifyWRT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
